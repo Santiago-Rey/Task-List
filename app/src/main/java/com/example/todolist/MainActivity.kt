@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
 
         osw.append(text)
         osw.flush() //limpia la memoria
-        osw.close()
+        osw.close() //Cerrar archivo
 
 
     }
